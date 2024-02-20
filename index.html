@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Logo</a>
+            <div class="btn-group">
+                <a class="btn btn-outline-light" href="#column-section">About</a>
+                <a class="btn btn-outline-light" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div id="top-header">
+        <header id="header-title" class="d-flex flex-column justify-content-center align-items-center p-3" style="height: 100vh;">
+            <h1 id="header-text" class="mb-3 p-3">Zihadul Huda</h1>
+            <span id="header-text" class="mb-3 p-3">CSE Major</span>
+            <a class="btn btn-primary" href="#column-section">Learn More</a>
+        </header>
+    </div>
+    <div>
+        <section class="d-flex flex-column" id="column-section">
+            <h2 style="text-align: center;">Header</h2>
+            <div class="row">
+                <div class="col d-flex justify-content-center m-3 p-3" id="box" >
+                    <img id="column-image" class="me-2" src="/img/code.svg" alt="Code Image">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, aliquid!</p>
+                </div>
+                <div class="col d-flex justify-content-center m-3 p-3" id="box" >
+                    <img id="column-image" class="me-2" src="/img/edit.svg" alt="Code Image">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, aliquid!</p>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col d-flex justify-content-center m-3 p-3" id="box" >
+                    <img id="column-image" class="me-2" src="/img/html.svg" alt="Code Image">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, aliquid!</p>
+                </div>
+                <div class="col d-flex justify-content-center m-3 p-3" id="box" >
+                    <img id="column-image" class="me-2" src="/img/react-1.svg" alt="Code Image">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, aliquid!</p>
+                </div>
+            </div> 
+        </section>
+        <section class="container d-flex flex-column">
+            <h2>Contact</h2>
+            <form id="contact">
+                <label for="Text" class="form-label">Name</label>
+                <input type="text" class="form-control">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control">
+                <button class="btn btn-primary mb-3 mt-3">Submit</button>
+            </form>
+        </section>
+    </div>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Logo</a>
+            <div class="btn-group">
+                <a class="btn btn-outline-light" href="#top-header">Top</a>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

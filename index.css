@@ -1,0 +1,26 @@
+#header-title {
+    background-image: url(/img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#header-title #header-text {
+    background-color: hsla(86, 0%, 56%, 0.77);
+    border-radius: 10px;
+}
+
+#column-image {
+    max-width: 40px;
+    max-height: 40px;
+
+}
+
+#box {
+
+    background-color: lightblue;
+}
+
+#column-section {
+    background-color: rgb(131, 171, 184);
+}
