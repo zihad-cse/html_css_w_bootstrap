@@ -1,0 +1,76 @@
+
+.box {
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#home {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav {
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.2)
+}
+
+.box {
+    background-color: #8391d4;
+}
+
+#overview {
+    background-color: #8593d8;
+    box-shadow: 0 -4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#our-achievements {
+    background-color: #dddfed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#overview-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pricing-plan-box {
+    background-color: #767eaf;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#pricing-text {
+    max-width: 100%;
+}
+
+#team  {
+    background-color: #8593d8 ;
+}
+
+.team-box {
+    background-color: #d5d6da;
+    max-width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#install-now {
+    background-color: #dddfed;
+}
+
+#faq {
+    background-color: #728dcc;
+}
+
+#accordion-body {
+    background-color: #cbd8f5;
+}
+
+#blog-content {
+    max-width: min-content;
+    max-height: min-content;
+}
+
+.client-image {
+    width: 150px;
+}
+
+#client-logo {
+    background-color: #d4d6d9;
+}
+
