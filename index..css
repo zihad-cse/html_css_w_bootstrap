@@ -62,8 +62,9 @@
 }
 
 #blog-content {
-    max-width: min-content;
-    max-height: min-content;
+    width: fit-content;
+    height: 500px;
+    
 }
 
 .client-image {
@@ -74,3 +75,15 @@
     background-color: #d4d6d9;
 }
 
+#card-body {
+    background-color: #cbd8f5;
+    padding: 2rem;
+}
+
+#carousel-img {
+    width: 12px;
+}
+
+#blog-cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
